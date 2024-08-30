@@ -20,7 +20,7 @@ node PoemReader.js
 ## Prompt:
 Follow the instructions below: 
 
-### This is a sample output that has a valid inputs:
+### These are the sample outputs for valid inputs:
 
 ```
 Welcome to Poem Reader!
@@ -34,19 +34,14 @@ Enter the line number (q to quit): 6
 And lifts her leafy arms to pray;
 ```
 
-If the user enters "q" the program will exit:
+If the user enters 'q' the program will exit:
 ```
 Enter the line number (q to quit): q
 Bye bye! Have a good day!
 ```
 
-### This is a sample output that has an  invalid inputs:
-
-If the user enters something other than numbers and 'q' the program will display an error message:
-```
-Invalid input. Please enter a valid line number.
-```
-If the user enters number greater than 12 the program will display an error message:
+### These are the sample outputs for invalid inputs:
+If the user enters something that is not a number between 1 and 12 or 'q', the program will display an error message:
 ```
 Invalid input. Please enter a valid line number.
 ```
