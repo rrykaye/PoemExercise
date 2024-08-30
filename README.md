@@ -45,7 +45,7 @@ If the user enters something that is not a number between 1 and 12 or 'q', the p
 ```
 Invalid input. Please enter a valid line number.
 ```
-If the user enters number that is empty the program will display an error message:
+If the user enters a number that is an empty line the program will display an error message:
 ```
 Error: The selected line is empty. Please enter a valid line number. 
 ```
