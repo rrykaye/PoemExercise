@@ -1,0 +1,12 @@
+{
+  "name": "poemexercise",
+  "version": "1.0.0",
+  "main": "PoemReader.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
