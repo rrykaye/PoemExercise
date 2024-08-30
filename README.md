@@ -11,15 +11,37 @@ Open terminal
 node PoemReader.js 
 ```
 
-## Sample Output:
+## This is a sample output that has a valid inputs:
 
 ```
+Welcome to Poem Reader!
+
+Trees by Joyce Kilmer
+
 Enter the line number (q to quit): 1
 A poem lovely as a tree
 
 Enter the line number (q to quit): 6
 And lifts her leafy arms to pray;
+```
 
+If the user enters "q" the program will exit:
+```
 Enter the line number (q to quit): q
 Bye bye! Have a good day!
+```
+
+## This is a sample output that has an  invalid inputs:
+
+If the user enters something other than numbers and 'q' the program will display an error message:
+```
+Invalid input. Please enter a valid line number.
+```
+If the user enters number greater than 12 the program will display an error message:
+```
+Invalid input. Please enter a valid line number.
+```
+If the user enters number that is empty the program will display an error message:
+```
+Error: The selected line is empty. Please enter a valid line number. 
 ```
