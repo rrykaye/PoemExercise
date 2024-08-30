@@ -4,6 +4,12 @@
 ## Description
 The Poem Reader allows users to interactively read a specific line from a poem. Users can input a line number, and the program will display the corresponding line from the Poem.txt file. If the user inputs "q", the program will exit.
 
+| Parameter  | Description |
+| ---------- | ------------ |
+| 1-12 | **Line number:** Enter any number between 1 and 12 to display the corresponding line from the poem.|
+| 'q'        | **Exit:** Enter 'q' to quit the program.
+| Any other input | **Invalid Input:** If the input is not a number between 1 and 12 or 'q', the program will display an error message prompting for a valid input. |
+
 ## How to run:
 
 Open terminal 
@@ -11,7 +17,10 @@ Open terminal
 node PoemReader.js 
 ```
 
-## This is a sample output that has a valid inputs:
+## Prompt:
+Follow the instructions below: 
+
+### This is a sample output that has a valid inputs:
 
 ```
 Welcome to Poem Reader!
@@ -31,7 +40,7 @@ Enter the line number (q to quit): q
 Bye bye! Have a good day!
 ```
 
-## This is a sample output that has an  invalid inputs:
+### This is a sample output that has an  invalid inputs:
 
 If the user enters something other than numbers and 'q' the program will display an error message:
 ```
